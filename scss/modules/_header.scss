@@ -1,0 +1,89 @@
+.head {
+  background: url("../images/header.jpg") no-repeat top center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 12px;
+    color: #ffffff;
+    display: block;
+    margin: 200px 0 20px 0;
+  }
+  &__desc {
+    display: block;
+    letter-spacing: 10px;
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 55px;
+  }
+  &__down--link {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+  &__down--link:hover {
+    color: $hover;
+  }
+}
+.form {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 0 auto 115px auto;
+
+  &__serch {
+    display: block;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    padding: 0 26% 0 5px;
+  }
+
+  &__button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 25%;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: $blue;
+    padding: 0 5px;
+  }
+  &__button--p {
+    display: block;
+    font: 16px $aleo;
+    color: #ffffff;
+    margin-right: 15px;
+    text-align: center;
+  }
+}
+
+.icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  fill: #fff;
+
+  &__down {
+    margin: 0 auto;
+    width: 40px;
+    height: 30px;
+  }
+  &__down:hover {
+    fill: $hover;
+  }
+}
